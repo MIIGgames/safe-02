@@ -11,7 +11,7 @@ header {
 }
 
 .logo {
-    color: #cc0000ff;
+    color: #00003cff;
     text-decoration: none;
     font-size: 2rem;
     font-weight: 600;
@@ -26,7 +26,7 @@ header {
 
 .categoria li a {
     text-decoration: none;
-    color: #cc0000ff;
+    color: #00003cff;
     font-weight: 600;
 }
 
@@ -39,14 +39,14 @@ header {
 .menu .log {
     text-decoration: none;
     color: #fff;
-    background-color: #cc0000ff;
+    background-color: #00003cff;
     padding: 15px 50px;
     border-radius: 5px;
     font-weight: 600;
 }
 
 .log:hover {
-    background-color: rgba(204, 0, 0, 0.886);
+    background-color: rgba(0, 0, 60, 0.797);
 }
 
 .menu-icon {
@@ -73,7 +73,7 @@ header {
     }
 
     .logo {
-        color: #cc0000ff;
+        color: #00003cff;
         text-decoration: none;
         font-size: 1.6rem;
         font-weight: 600;
@@ -90,7 +90,7 @@ header {
         top: 100%;
         left: 0;
         width: 100%;
-        background: #cc0000ff;
+        background: #00003cff;
         text-align: center;
         z-index: 1000;
     }

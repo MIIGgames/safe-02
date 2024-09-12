@@ -11,7 +11,7 @@ body section {
 }
 
 .cor_azul {
-    color: #cc0000ff;
+    color: #00003cff;
 }
 
 .cor_amarela {
@@ -34,7 +34,7 @@ body section {
 
 .spinner {
     border: 8px solid #f3f3f3;
-    border-top: 8px solid #cc0000ff;
+    border-top: 8px solid #00003cff;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -98,7 +98,7 @@ body section {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #cc0000ff;
+    background-color: #00003cff;
     color: white;
     text-align: center;
     padding: 20px;
@@ -119,7 +119,7 @@ body section {
 .cookie-banner button {
     border: 2px solid #fff;
     color: white;
-    background-color: #cc0000ff;
+    background-color: #00003cff;
     padding: 10px 20px;
     margin-top: 20px;
     cursor: pointer;
@@ -129,5 +129,5 @@ body section {
 }
 
 .cookie-banner button:hover {
-    background-color: rgba(204, 0, 0, 0.837);
+    background-color: rgba(0, 0, 60, 0.749);
 }

@@ -28,7 +28,7 @@
 }
 
 .button-conteudo-1 {
-    background-color: #cc0000ff;
+    background-color: #00003cff;
     color: #fff;
     text-decoration: none;
     font-weight: 600;
@@ -47,7 +47,7 @@
 
 /* Conteudo - 2 */
 .conteudo-2 {
-    background-color: #cc0000ff;
+    background-color: #00003cff;
     margin-top: -10rem;
     height: auto;
 }
@@ -85,7 +85,7 @@
 
 .bloco-conteudo-2 a {
     text-decoration: none;
-    color: #cc0000ff;
+    color: #00003cff;
     font-weight: 600;
 }
 
@@ -110,7 +110,7 @@
 
 .bloco-conteudo-3 {
     padding: 30px;
-    background-color: #cc0000ff;
+    background-color: #00003cff;
     color: #fff;
 }
 
@@ -160,7 +160,7 @@
 .conteu-desc-4 {
     width: 40%;
     padding: 50px;
-    background-color: #cc0000ff;
+    background-color: #00003cff;
 }
 
 .conteu-desc-4 i {
@@ -223,7 +223,7 @@
 }
 
 .steps h1 {
-    color: #cc0000ff;
+    color: #00003cff;
     font-size: 1.5em;
 }
 
@@ -237,7 +237,7 @@
 }
 
 .steps h2 {
-    color: #cc0000ff;
+    color: #00003cff;
     font-size: 1.2em;
     margin-bottom: 5px;
 }
@@ -250,7 +250,7 @@
 .quiz {
     flex: 1 1 30%;
     margin: 20px;
-    background: #cc0000ff;
+    background: #00003cff;
     border-radius: 8px;
     color: #ffffff;
     padding: 20px;
@@ -275,7 +275,7 @@
 .quiz a {
     color: #ffffff;
     text-decoration: none;
-    background: #cc0000ff;
+    background: #00003cff;
     padding: 10px 20px;
     border-radius: 4px;
     text-align: center;
@@ -283,7 +283,7 @@
 }
 
 footer {
-    background-color: #cc0000ff;
+    background-color: #00003cff;
     padding: 10px;
     color: #fff;
     text-align: center;
@@ -309,7 +309,7 @@ footer {
     .quiz {
         width: 100%;
         margin: 20px;
-        background: #cc0000ff;
+        background: #00003cff;
         border-radius: 8px;
         color: #ffffff;
         padding: 20px;
@@ -356,7 +356,7 @@ footer {
 
 
     .button-conteudo-1 {
-        background-color: #cc0000ff;
+        background-color: #00003cff;
         color: #fff;
         text-decoration: none;
         font-weight: 600;
@@ -379,7 +379,7 @@ footer {
 
     /* Conteudo - 2 */
     .conteudo-2 {
-        background-color: #cc0000ff;
+        background-color: #00003cff;
         margin-top: 5rem;
         height: auto;
     }
@@ -419,7 +419,7 @@ footer {
 
     .bloco-conteudo-2 a {
         text-decoration: none;
-        color: #cc0000ff;
+        color: #00003cff;
         font-weight: 600;
     }
 
@@ -459,7 +459,7 @@ footer {
         width: 100%;
         height: auto;
         padding: 50px;
-        background-color: #cc0000ff;
+        background-color: #00003cff;
     }
 
     .conteu-desc-4 h1 {
