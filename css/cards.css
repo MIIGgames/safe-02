@@ -1,13 +1,9 @@
 .cards {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     padding: 20px;
     position: relative;
     bottom: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
 }
 
 .cards .bloco {
@@ -15,7 +11,7 @@
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 5px #00003cff;
+    box-shadow: 0 0 5px #cc0000ff;
 }
 
 .bloco i {
@@ -32,7 +28,7 @@
 .bloco .button-bloco {
     display: flex;
     justify-content: center;
-    background-color: #00003cff;
+    background-color: #cc0000ff;
     color: #fff;
     text-decoration: none;
     font-weight: 600;
@@ -42,7 +38,19 @@
 }
 
 .button-bloco:hover {
-    background-color: rgba(0, 0, 60, 0.785);
+    background-color: rgba(204, 0, 0, 0.757);
+}
+
+.carousel {
+    display: none;
+}
+
+.cards-desktop {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 @media (max-width: 968px) {
@@ -57,5 +65,56 @@
         justify-content: center;
         align-items: center;
         gap: 1rem;
+    }
+
+    .cards-desktop {
+        display: none;
+    }
+
+    .cards .bloco {
+        width: 100%;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px solid #cc0000ff;
+        box-shadow: none;
+    }
+
+    .carousel {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+
+    .carousel-track-container {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .carousel-track {
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+        list-style: none;
+    }
+
+    .carousel-slide {
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .carousel-nav {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+    }
+
+    .carousel-button {
+        background: none;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
     }
 }
